@@ -70,6 +70,10 @@ def CourierTaskList:
 class FoodDeliverySimulation:
     def __init__(self):
         pass
+    
+    ## Reset the system to initial so that we can generate another trajectory
+    def reset_time_and_state(self):
+        pass
 
     ## Components:
     ##  Courier states:
